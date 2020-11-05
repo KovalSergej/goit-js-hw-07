@@ -1,0 +1,26 @@
+#gallery {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.box {
+  margin: 0 2px 2px 0;
+}
